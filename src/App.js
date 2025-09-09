@@ -225,4 +225,41 @@ Terakhir, jika kamu merasa terbantu atau terinspirasi oleh tulisan-tulisanku, pe
             </div>
           </div>
         ) : (
+          // Journal List View
+          <div>
+            <h2 className="text-2xl font-bold mb-6 text-amber-900 border-b-2 border-amber-300 pb-2" style={{ fontFamily: 'Montserrat, sans-serif' }}>Daftar Tulisan</h2>
+            <div className="space-y-4">
+              {journalEntries.filter(entry => entry.title !== "Tentang Saya" && entry.title !== "Kontak").map((entry) => (
+                <div
+                  key={entry.id}
+                  onClick={() => setSelectedEntry(entry)}
+                  className={`p-4 border-l-4 cursor-pointer transition-all duration-300 hover:shadow-md ${
+                    selectedEntry?.id === entry.id
+                      ? 'border-amber-600 bg-amber-100'
+                      : 'border-amber-300 bg-white hover:border-amber-500'
+                  }`}
+                >
+                  <h3 className="font-bold text-amber-900 mb-1 text-lg md:text-xl lg:text-2xl" style={{ fontFamily: 'Montserrat, sans-serif' }}>{entry.title}</h3>
+                  <p className="text-sm text-amber-700" style={{ fontFamily: 'Montserrat, sans-serif' }}>{entry.date}</p>
+                  <span className="inline-block px-2 py-1 mt-2 text-xs bg-amber-200 text-amber-800 rounded" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                    {entry.category}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Footer */}
+        <footer className="mt-12 pt-6 border-t border-amber-300 text-center text-amber-700">
+          <p className="italic text-sm" style={{ fontFamily: 'Montserrat, sans-serif' }}>"Menulis adalah cara untuk berbicara tanpa diganggu." — Jules Renard</p>
+          <p className="mt-2 text-xs" style={{ fontFamily: 'Montserrat, sans-serif' }}>© {new Date().getFullYear()} Journal Pribadi. Hak Cipta Dilindungi.</p>
+        </footer>
+      </div>
+    </div>
+  );
+};
+
+export default App;
+```
    
