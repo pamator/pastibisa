@@ -225,7 +225,7 @@ Terakhir, jika kamu merasa terbantu atau terinspirasi oleh tulisan-tulisanku, pe
               </div>
             </div>
           </div>
-        )       id: 3,
+        )       id: 1,
       title: "Tentang Cinta yang Hilang",
       date: "28 September 2024",
       content: `Ada yang bilang waktu menyembuhkan segalanya. Tapi malam ini, kenangan itu kembali menghampiri. Senyumnya, suaranya, cara ia memegang tanganku saat hujan turun. Mungkin bukan tentang melupakan, tapi belajar hidup dengan kenangan itu. Seperti lukisan yang retak tapi tetap indah, seperti buku yang usang tapi tetap berharga.
@@ -239,7 +239,7 @@ Sekarang, ketika melihat foto-foto lama, aku tidak lagi merasa sakit. Yang ada a
       image: "https://images.unsplash.com/photo-1518577897935-45300a9766dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
     },
     {
-      id: 4,
+      id: 2,
       title: "Kopi dan Buku Lama",
       date: "20 September 2024",
       content: `Ritual pagiku: secangkir kopi hitam tanpa gula dan buku tua yang kubeli di pasar loak. Aroma kopi bercampur dengan aroma kertas usang menciptakan harmoni yang menenangkan. Di halaman-halaman yang sudah menguning itu, aku menemukan kebijaksanaan dari zaman yang berbeda. Kadang aku iri pada mereka yang hidup di masa lalu, di mana waktu berjalan lebih lambat dan orang-orang lebih menghargai momen-momen kecil.
@@ -253,7 +253,7 @@ Saat matahari mulai naik, menyinari halaman buku yang kubaca, aku merasa bersyuk
       image: "https://images.unsplash.com/photo-1501858686513-8f906209eada?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
     },
     {
-      id: 5,
+      id: 3,
       title: "Surat untuk Diriku di Masa Depan",
       date: "10 September 2024",
       content: `Hai, aku yang di masa depan. Apakah kau masih ingat mimpi-mimpi kecilmu? Apakah kau masih menulis di malam hari saat dunia terlelap? Jangan lupa untuk tetap mencintai hal-hal sederhana: aroma hujan, suara daun bergesekan, rasa cokelat panas di hari dingin. Jangan biarkan dunia membuatmu lupa siapa dirimu yang sesungguhnya.
@@ -267,7 +267,7 @@ Jangan lupa untuk tertawa, untuk menangis, untuk merasa, untuk hidup sepenuhnya.
       image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
     },
     {
-      id: 6,
+      id: 4,
       title: "Tentang Saya",
       date: "1 Januari 2024",
       content: `Halo, aku Man Surahmo - seorang penulis, pemimpi, dan pencinta kopi. Lahir dan besar di kota kecil yang dikelilingi pegunungan, aku tumbuh dengan kecintaan pada buku dan alam. Sejak kecil, aku selalu membawa buku ke mana pun aku pergi, dan menulis di buku harian menjadi ritual harian yang tak tergantikan.
@@ -281,7 +281,7 @@ Website ini adalah ruang pribadiku untuk berbagi pikiran, perasaan, dan pengalam
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
     },
     {
-      id: 7,
+      id: 5,
       title: "Kontak",
       date: "1 Januari 2024",
       content: `Terima kasih telah mengunjungi jurnal pribadiku. Jika kamu ingin berbagi pikiran, memberikan masukan, atau sekadar ingin mengobrol, aku akan dengan senang hati mendengarkan. Menulis adalah cara untuk berkomunikasi, dan komunikasi yang baik selalu melibatkan dua arah.
